@@ -19,7 +19,7 @@ terraform {
     }
     postgresql = {
       source  = "cyrilgdn/postgresql"
-      version = "~> 1.21.0"
+      version = "~> 1.22.0"
     }
     random = {
       source  = "hashicorp/random"
