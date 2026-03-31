@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v3.1.1] - 2026-03-31
+### Fixed
+- Do not set password for `CLOUD_IAM_USER` and `CLOUD_IAM_SERVICE_ACCOUNT` types — Google Cloud SQL rejects any password (including empty string) for IAM-authenticated users
+
 ## [v3.0.0] - 2024-01-28
 ### Changed
 - replication parameter for `google_secret_manager_secret` - making this compatible only with Google provider version 5
