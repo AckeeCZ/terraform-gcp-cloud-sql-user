@@ -24,22 +24,32 @@ provider "registry.terraform.io/cyrilgdn/postgresql" {
 }
 
 provider "registry.terraform.io/hashicorp/google" {
-  version     = "5.13.0"
-  constraints = "~> 5.13.0"
+  version     = "8.12.0"
+  constraints = "~> 8.12.0"
   hashes = [
-    "h1:YnL9QS5r0WWsoQoOli+NchIMR274J2Z2bY9A0o/2i20=",
-    "zh:115361782dcc1731ac1a2c69e919e10b5e9965e591a2e6ab4f638ac49861ef41",
-    "zh:141bd60cb0192f279f21a8e3a8dc25a2fbd5e24a5bd2c8ef7b1b3054368d3050",
-    "zh:1b911da4dde5daf5379f8c5203492bbcb33ad0c8ab93defc38ab2e297f2d68cb",
-    "zh:29540dbe91d6bebcf0b26d69cbe092aed1abd5682d7ad1ab514ff8d30adfb237",
-    "zh:4fa57909509075056252a1b0cb5811b3f622aad05c586ae5e31937d482292829",
-    "zh:6ba479f5420bbf4ff3e892eaafbc8468a4a1635466fd4ebb0ca47761b4423b39",
-    "zh:7604ee97f7a1b9bf5902cddb742052fa9f8ea65202744c16a7c625efbb271f6c",
-    "zh:b251153776d622573cdf1496849d151f6a8ef4222a4fe55fe2130ad27f6626f4",
-    "zh:cf0754261941786094dd6f5bf6c38c15727f6c4cb7e1c9a7359b8750afb5e591",
+    "h1:3SB8Czk/dIFMpDRyOfAJ4DTzZGAaOpyThyV7vYcoy5U=",
+    "h1:9d+FdGigXECjhHgs8RcW5JhsTTXVNga0X1Pd4O4QHjY=",
+    "h1:Lx9hIIVVH8pAcDPS2fsJmRUeR/tq6+StmteW7VjORgk=",
+    "h1:NRoVoeF++OE90wMKxdYMBw7qQKEWkequ0h5QkS8IHOA=",
+    "h1:RJ2Op115tmoK7qugCFyUa+3wWN0K/wq0UoIScVDGOto=",
+    "h1:bkufbTUDIq96qwIE8uUEKRh48xnadz1Bfv4C5sLZo9U=",
+    "h1:ecZl8DXYXWxQ8AgPmr8/yKzWgwkbpij1kMUkeVpHeqI=",
+    "h1:es4kOf5hndCahoF3bLHmsLKX93JpkeuThvKQ4Pnm6m8=",
+    "h1:gQ1sHNZr8ukb1okupchy6pUJmDqqLTTtM9LYe5Zt4Jg=",
+    "h1:usJjlcp/BYaEPoS+3tvwPdAFComQRBtTgbo4og1bJbQ=",
+    "h1:xKyuRUAQu+81b420c1D1aC3Gjht4g+fUJ4qi3x8B4xU=",
+    "zh:0b486637c4f4a2ff260dcf98e0ab74aa2655884c27df909fc79de9c2829ea6ef",
+    "zh:0b9c04d4bb269389d799f6b871877172d13cd059571768c6c36b28cf297b6fba",
+    "zh:0c63d340b3fda4156bccbd4f02e8ef7d320bea75bd1706573a90851e00129c47",
+    "zh:20371948b3d7f0469f2ad99608d9626a816127c9eb1b4cd007f09e1f68878728",
+    "zh:2a6d9c60699366894da043e604ebe5fee9246bb01bef73ebd100d3dbaf3e5e34",
+    "zh:47aa133c201e1edd2d1eb789f2ef4ccc769fdb49d5000b042280c2ac37acf368",
+    "zh:58e2910ee0625ecd352c2e55050ed35771ed7860dd1e738ee4b53eab695a2ee8",
+    "zh:84a44faf0dc811e48a8590e244c02ffff4a6a10095a4bc869979e7b0e94ae46d",
+    "zh:b8f42d7d79776b54d37c93b51a3f10ae45425fb91fb182bcb2a966e1bd52bdad",
+    "zh:eddf30f53a99381388ff25702ed0c727586deb8c502cd5af395dc98afb217a49",
     "zh:f569b65999264a9416862bca5cd2a6177d94ccb0424f3a4ef424428912b9cb3c",
-    "zh:f97d7320683ba46627730390bd84923406e04a24ce6fa131e2ab5d4853489f59",
-    "zh:fe1d855de0af35c4594e725a27c4b6869bf59c9ee02b3b8068dc693927d23c29",
+    "zh:f79b40a9d29763535baed6de1cd0d42960059916a1723f8fb4af8a2801dd2f4c",
   ]
 }
 
